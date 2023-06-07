@@ -50,18 +50,41 @@ print(c) """
 
 #print(str)
 
-p = 25
-p = str(p)
-print(type(p))
+# p = 25
+# p = str(p)
+# print(type(p))
 
-m = "878"
-m = int(m)
-print(type(m))
+# m = "878"
+# m = int(m)
+# print(type(m))
 
-isSuper = "False"
-isSuper = bool(isSuper)
-print(type(isSuper))
+# isSuper = "False"
+# isSuper = bool(isSuper)
+# print(type(isSuper))
 
+lang = ["python","Rust","Go","PHP","Rust"]
+
+#print(lang)
+#print(lang[0:3])
+#print(lang[0:50])
+#print(lang[0:])
+#print(lang[:])
+#print(lang[-2:])
+#print(len(lang))
+#print(lang.count("PHP"))
+
+# print(lang)
+# lang.reverse()
+# print(lang)
+# print(lang)
+# lang[0:1] = [25,9]
+print(lang)
+
+lang.append(2000)
+print(lang)
+
+lang.insert(2,800)
+print(lang)
 
 
    
