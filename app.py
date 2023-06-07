@@ -50,11 +50,17 @@ print(c) """
 
 #print(str)
 
-p = 25 
+p = 25
+p = str(p)
 print(type(p))
 
+m = "878"
+m = int(m)
+print(type(m))
 
-
+isSuper = "False"
+isSuper = bool(isSuper)
+print(type(isSuper))
 
 
 
