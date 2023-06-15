@@ -70,14 +70,15 @@ while i >= 1:
 #  n! ===> 1 *2*2  *n
 
 
-n = input()
+n = input("enter you number")
+n = int(n)
+#print( type(int(n)))
 fac = 1
 #fac = fac * i
 for i in range(1, n + 1):
     fac *= i
     
-print("Factorial of ",n," is ", fac)
-
+print("Factorial of ",n," is ", fac) 
 
 
 
