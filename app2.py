@@ -91,14 +91,28 @@ while i <= n:
 print("Factorial of ",n," is ", fact2)  """
 
 
-str = "python"  #==> niocE oT mocleW
+""" str = "python"  #==> niocE oT mocleW
 str_rev = ""
 i = len(str) - 1
 while i >= 0 :
     str_rev += str[i]
     i -= 1
     
-print("Reverse Str ",str_rev) 
+print("Reverse Str ",str_rev)  """
+
+ # Tuple Dict Set
+ 
+mytuple = (10,25,36,8)
+l = [10,25,36,8]
+# print(l)
+# l[1] = 100
+# print(l)
+""" print(mytuple)
+mytuple[1] = 100
+print(mytuple) """
+""" for i in mytuple:
+    print(i) """
+
     
 
 
