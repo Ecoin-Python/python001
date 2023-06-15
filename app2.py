@@ -70,7 +70,7 @@ while i >= 1:
 #  n! ===> 1 *2*2  *n
 
 
-n = input("enter you number")
+""" n = input("enter you number")
 n = int(n)
 #print( type(int(n)))
 fac = 1
@@ -78,7 +78,35 @@ fac = 1
 for i in range(1, n + 1):
     fac *= i
     
-print("Factorial of ",n," is ", fac) 
+print("Factorial of ",n," is ", fac)  """
+
+
+""" n = 6 
+fact2 = 1
+i = 1 
+while i <= n:
+    fact2 *= i
+    i += 1
+    
+print("Factorial of ",n," is ", fact2)  """
+
+
+str = "python"  #==> niocE oT mocleW
+str_rev = ""
+i = len(str) - 1
+while i >= 0 :
+    str_rev += str[i]
+    i -= 1
+    
+print("Reverse Str ",str_rev) 
+    
+
+
+
+
+
+
+
 
 
 
