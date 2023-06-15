@@ -80,11 +80,20 @@ lang = ["python","Rust","Go","PHP","Rust"]
 # lang[0:1] = [25,9]
 print(lang)
 
-lang.append(2000)
-print(lang)
+# lang.append(2000)
+# print(lang)
 
-lang.insert(2,800)
+# lang.insert(2,800)
+# print(lang)
+#lang.pop()
+# lang.pop(2)
+# print(lang)
+lang.remove("python")
 print(lang)
-
 
    
+"""
+smfsjdfd
+sdmflkdsqmfkmlds
+sdmflsdkjf
+"""
