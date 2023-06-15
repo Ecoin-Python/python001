@@ -20,7 +20,7 @@ str = "Welcom to Ecoin"
 """ for i in range(1, 11):
     print(i) """
  
-""" for i in range(1, 11):
+""" for i in range(1, 11):  # i<11  1 2 3
     print(i ** 2) """
  
 """ x = 25
@@ -36,7 +36,21 @@ sum_even  = 0
     sum_even += i
     
 print("Sum of even numbers : ", sum_even) """
- 
+
+""" for i in range(10 , 0, -1):
+    print(i) """
+    
+""" i  = 1
+while i <= 10:
+    print(i)
+    i += 1 """
+    
+""" i = 1 
+while i <= 10:
+    print(i ** 2)
+    i += 1 """
+
+
 
 
 
