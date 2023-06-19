@@ -1,5 +1,3 @@
-
-
 numbers = [10,20,40,50]
 
 #print(numbers)
@@ -112,8 +110,32 @@ mytuple[1] = 100
 print(mytuple) """
 """ for i in mytuple:
     print(i) """
-
     
+# packing unpacking
+
+""" myt = 1 ,20 , 25, 69 # pakcing
+a, b, c, d = myt  # unpacking
+
+print("A = ",a,"B = ",b,"C = ",c,"D = ",d) """
+
+tp1 = (1, 2)
+tp2 = (3, 4)
+
+#tp1[2] = 100
+
+concat_tp = tp1 + tp2
+
+print(len(concat_tp))
+
+# list set []
+#tupe ()
+#dictionary  {}
+dic = {"name":"sara","bitthday":"15/02/2003","birth_city":"Rouiba"}
+print(dic)
+dic['name'] = "Ahmed"
+print(dic)    
+print(dic.values())    
+print(dic.keys())    
 
 
 
