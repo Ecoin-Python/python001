@@ -127,9 +127,9 @@ concat_tp = tp1 + tp2
 
 print(len(concat_tp))
 
-# list set []
+# list  []
 #tupe ()
-#dictionary  {}
+#dictionary  set{}
 dic = {"name":"sara","bitthday":"15/02/2003","birth_city":"Rouiba"}
 print(dic)
 dic['name'] = "Ahmed"
