@@ -136,6 +136,7 @@ dic['name'] = "Ahmed"
 print(dic)    
 print(dic.values())    
 print(dic.keys())    
+print(dic.get("birth_city"))    
 
 
 
