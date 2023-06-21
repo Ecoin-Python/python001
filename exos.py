@@ -19,7 +19,7 @@ numbers_list = [15,36,25,26,12,15,25,15,12,12,12]
 result = list(set(numbers_list))
 print(result) """
 
-
+# Prime Number
 n = 15 #17
 
 if n <= 1:
