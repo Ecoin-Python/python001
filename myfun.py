@@ -51,7 +51,7 @@ def mySum3(*args):
         
 #t = (25,36,9,8,7,1)
 
-mySum3(25,36,9,8,7,1)
+# mySum3(25,36,9,8,7,1)
 
 
 def greet(*args):
@@ -59,7 +59,7 @@ def greet(*args):
         print("Hello ",name)
 
 names = ["Ali","Mahmoud","zineb","Imen","Khaled"]
-greet(*names)
+#greet(*names)
 
 
 def multiply(*args):
@@ -69,4 +69,35 @@ def multiply(*args):
     print(r)
     
 t = (25,36,9,8,7,1)    
-multiply(*t)
+    
+""" multiply(*t)
+multiply(5,6,2)
+multiply(25,3)
+multiply(7,8,9,2,36) """
+
+
+
+def listLang(**l):
+    print(l.items())
+    for lg,version in l.items():
+        print(lg," ==== ",version)
+
+
+lang = {"php":8.2,"python":3.9,"java":17,"kotlin":2.3}
+listLang(**lang)
+
+
+def order(**kwargs):
+    total = 0
+    it = " "
+    print(kwargs.items())
+    for item, price in kwargs.items():
+        total += price
+        
+        
+    print("my total Order is ",total)
+
+
+
+myorder = {"laptop":45000,"mouse":450,"iphone":256655}  
+order(**myorder)  
