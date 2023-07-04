@@ -62,13 +62,13 @@ names = ["Ali","Mahmoud","zineb","Imen","Khaled"]
 #greet(*names)
 
 
-def multiply(*args):
+""" def multiply(*args):
     r = 1
     for num in args:
         r *= num
     print(r)
     
-t = (25,36,9,8,7,1)    
+t = (25,36,9,8,7,1)    """ 
     
 """ multiply(*t)
 multiply(5,6,2)
@@ -77,16 +77,16 @@ multiply(7,8,9,2,36) """
 
 
 
-def listLang(**l):
+""" def listLang(**l):
     print(l.items())
     for lg,version in l.items():
         print(lg," ==== ",version)
 
 
 lang = {"php":8.2,"python":3.9,"java":17,"kotlin":2.3}
-listLang(**lang)
+listLang(**lang) """
 
-
+""" 
 def order(**kwargs):
     total = 0
     it = " "
@@ -99,7 +99,7 @@ def order(**kwargs):
 
 
 myorder = {"laptop":45000,"mouse":450,"iphone":256655}  
-order(**myorder)  
+order(**myorder)   """
 
 
 #format String 
@@ -115,9 +115,27 @@ age = 25
 
 
 
-def printV(**kwargs):
+""" def printV(**kwargs):
     for key,vlaue  in kwargs.items():
         print("The Price of {} is {}".format(key,vlaue) )
 
 
-printV(**myorder)
+printV(**myorder) """
+
+
+def student(name,*args,**kwargs):
+    print("Name is ",name)
+    print("list notes are  ",args)
+    print("address  ",kwargs)
+
+
+    
+student("Ahmed",15,14,12,wilaya="Alger",commune="Kouba")
+
+# main 
+
+# welcom to Ecoin
+# 1 Add Student (fname,lname,age,year)  
+# 2 list_Student()
+# 3 Get_Student(num) 
+# 4 Exit  ==> exit()
