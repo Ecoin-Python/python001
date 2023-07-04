@@ -101,3 +101,15 @@ def order(**kwargs):
 
 myorder = {"laptop":45000,"mouse":450,"iphone":256655}  
 order(**myorder)  
+
+
+#format String 
+
+fname = "Ali"
+lname = "kadri"
+age = 25
+
+
+#print("My first Name is ",fname," and my Last Name is :",lname," and i am ",age," years old") 
+#print("My first Name is {1}  and my Last Name is :{2} and i am {0} years old".format(age,fname,lname)) 
+print("My first Name is {f_name}  and my Last Name is :{l_name} and i am {my_age} years old".format(my_age = age,f_name = fname,l_name = lname)) 
