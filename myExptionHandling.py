@@ -26,13 +26,14 @@ finally:
      
 mylist = [10,20,0]
 
-try:
+""" try:
     print("The Result = ",mylist[1]/mylist[2])
 except ZeroDivisionError:
     print("Zero Div Error")
 except IndexError :
-    print(" Index Error")
+    print(" Index Error") """
     
-
+#print(dir(locals()['__builtins__']))
+    
      
  
