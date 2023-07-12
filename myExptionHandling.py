@@ -9,7 +9,7 @@ deff myfun2():  # Logical error
 print(name)  # logical Error """
 
 # Exception Error
-try:
+""" try:
     num1 = int(input("enter Number 1: "))
     num2 = int(input("enter Number 2: "))
     print(" the result = ",num1/num2)
@@ -22,4 +22,17 @@ except:
 else:
     print("No Error") 
 finally:
-     print("End program from finally ")  
+     print("End program from finally ")  """
+     
+mylist = [10,20,0]
+
+try:
+    print("The Result = ",mylist[1]/mylist[2])
+except ZeroDivisionError:
+    print("Zero Div Error")
+except IndexError :
+    print(" Index Error")
+    
+
+     
+ 
