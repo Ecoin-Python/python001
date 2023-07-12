@@ -22,7 +22,7 @@ def listStudent():
 def getStudent(num):
     print(stds[num])
     
-    
+    #3 0 1 2 
     
 def main():
     print("welcom to Ecoin ")
