@@ -34,7 +34,7 @@ def main():
     choice = int(input("Enter your Choice :"))
     if choice == 1:
         fname = input("Enter Your first Name :")
-        lname = input("Enter Your first Name :")
+        lname = input("Enter Your Last Name :")
         age = int(input("Enter Your Age :"))
         year = int(input("Enter Year :"))
         addStudent(fname,lname,age,year)
